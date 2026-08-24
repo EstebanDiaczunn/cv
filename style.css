@@ -24,13 +24,15 @@ li{margin:.2rem 0}
 li::marker{color:var(--faint)}
 strong{font-weight:500}
 @media (max-width:600px){header.cab{align-items:flex-start}.contacto{text-align:left}}
-@page{size:A4;margin:14mm 15mm}
+@page{size:A4;margin:11mm 13mm}
 @media print{
   :root{--bg:#fff;--paper:#fff;--ink:#111;--faint:#555;--rule:#ddd;--acc:#6B531C}
-  body{font-size:10.5pt;line-height:1.4;background:#fff}
+  body{font-size:9.4pt;line-height:1.33;background:#fff}
   .barra{display:none}
   .hoja{max-width:none;margin:0;padding:0;box-shadow:none;border-radius:0}
-  h1{font-size:20pt}h3{font-size:12pt;page-break-after:avoid}h2{page-break-after:avoid;margin-top:1rem}
+  h1{font-size:18pt;margin-bottom:.1rem}h2{font-size:7.2pt;margin:.75rem 0 .35rem;page-break-after:avoid}h3{font-size:10.5pt;margin:.55rem 0 .05rem;page-break-after:avoid}
+  header.cab{padding-bottom:.6rem;margin-bottom:.8rem}.contacto{font-size:8pt;line-height:1.45}.rol{font-size:9pt}.meta{font-size:7.8pt;margin-bottom:.25rem}
+  p{margin:0 0 .35rem}ul{margin:0 0 .3rem;padding-left:.95rem}li{margin:.08rem 0}
   li,p{page-break-inside:avoid}
   a{color:inherit}
   .contacto a[href^="http"]::after,.contacto a[href^="mailto"]::after{content:""}
