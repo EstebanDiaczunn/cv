@@ -10,7 +10,12 @@ function render(archivo, salida, ruta) {
   const { data: d, content } = matter(fs.readFileSync(path.join(RAIZ, archivo), "utf8"));
   let html = marked.parse(content);
   // "<h3>…</h3><p><em>meta</em></p>" → línea de metadatos
-  html = html.replace(/(<\/h3>\s*)<p><em>([\s\S]*?)<\/em><\/p>/g, '$1<p class="meta">$2</p>');
+  html = html.replace(/<h3>([\s\S]*?)<\/h3>\s*<p><em>([\s\S]*?)<\/em><\/p>/g, (m, t, meta) => {
+    const partes = meta.split(" · "); const fechas = partes.shift();
+    return `<div class="puesto"><h3>${t}</h3><span class="fechas">${fechas}</span></div><p class="meta">${partes.join(" · ")}</p>`;
+  });
+  // cada <h2> abre una sección con rótulo a la izquierda y contenido a la derecha
+  html = html.replace(/<h2>([\s\S]*?)<\/h2>/g, '</div></section><section class="bloque"><h2>$1</h2><div class="cont">').replace(/^<\/div><\/section>/, "") + "</div></section>";
   const base = ruta === "/" ? "./" : "../";
   const pagina = `<!doctype html>
 <html lang="${d.idioma}">
@@ -34,8 +39,9 @@ function render(archivo, salida, ruta) {
 <nav class="barra"><a href="${base}${d.pdf}" download>PDF</a><a href="${d.otro_url}" hreflang="${d.idioma === "es" ? "en" : "es"}">${esc(d.otro_idioma)}</a><a href="https://diaczun.com">diaczun.com</a></nav>
 <main class="hoja">
 <header class="cab">
-  <div class="id"><svg class="mono" viewBox="0 0 100 100" aria-hidden="true"><defs><mask id="ojo"><rect width="100" height="100" fill="#fff"/><path d="M38 50q12 12 24 0" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/></mask></defs><path d="M26 18h26a32 32 0 0 1 0 64H26z" fill="currentColor" mask="url(#ojo)"/></svg><div><h1>${esc(d.nombre)}</h1><p class="rol">${esc(d.rol)} · ${esc(d.ciudad)}</p></div></div>
-  <div class="contacto"><a href="mailto:${d.mail}">${d.mail}</a><br><a href="https://${d.web}">${d.web}</a><br><a href="https://${d.github}">${d.github}</a><br><a href="https://${d.linkedin}">${d.linkedin}</a></div>
+  <h1>${esc(d.nombre)}</h1>
+  <p class="rol">${esc(d.rol)} — ${esc(d.ciudad)}</p>
+  <p class="contacto"><a href="mailto:${d.mail}">${d.mail}</a><span>·</span><a href="https://${d.web}">${d.web}</a><span>·</span><a href="https://${d.github}">${d.github.replace("github.com/","github/")}</a><span>·</span><a href="https://${d.linkedin}">${d.linkedin.replace("linkedin.com/in/","linkedin/")}</a></p>
 </header>
 ${html}
 </main>
