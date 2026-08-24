@@ -30,6 +30,7 @@ function render(archivo, salida, ruta) {
 <meta property="og:title" content="${esc(d.nombre)} — ${esc(d.rol)}">
 <meta property="og:description" content="${esc(d.descripcion)}">
 <link rel="icon" href="${base}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="${base}apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Inter:wght@400;500&display=swap">
