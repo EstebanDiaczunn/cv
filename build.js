@@ -3,7 +3,7 @@
 const fs = require("fs"), path = require("path"), { execFileSync } = require("child_process");
 const { marked } = require("marked"); const matter = require("gray-matter");
 const RAIZ = __dirname, SITIO = "https://cv.diaczun.com";
-const CHROME = ["/usr/bin/google-chrome", "/usr/bin/chromium", "/usr/bin/chromium-browser"].find(fs.existsSync);
+const CHROME = [process.env.CHROME_PATH, "/usr/bin/google-chrome", "/usr/bin/chromium", "/usr/bin/chromium-browser"].find(p => p && fs.existsSync(p));
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
 function render(archivo, salida, ruta) {

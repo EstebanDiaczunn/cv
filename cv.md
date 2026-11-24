@@ -1,7 +1,7 @@
 ---
 idioma: es
 nombre: Esteban Nicolás Diaczun
-rol: Backend Developer
+rol: Backend Engineer · salud e IA
 ciudad: Buenos Aires, Argentina · remoto
 mail: esteban@diaczun.com
 web: diaczun.com
@@ -10,57 +10,56 @@ linkedin: linkedin.com/in/esteban-diaczun
 pdf: esteban-diaczun.pdf
 otro_idioma: English
 otro_url: /en/
-descripcion: CV de Esteban Nicolás Diaczun, backend developer en sistemas de salud (Laravel, NestJS, .NET, Python).
+descripcion: CV de Esteban Nicolás Diaczun, backend engineer, integraciones de salud y productos con IA en producción.
 ---
 
 ## Perfil
 
-Backend developer con más de tres años en sistemas de salud: integraciones con obras sociales y organismos públicos, historias clínicas, turnos y facturación. Trabajo en varios stacks (Laravel, NestJS, .NET, Python) y me ocupo tanto de diseñar como de sostener en producción. Uso inteligencia artificial en el trabajo diario y construí un producto sobre ella.
+Hace tres años escribo el backend de sistemas de salud en Argentina. Conecté la receta electrónica con cinco repositorios y con el Ministerio de Salud; hoy pasan miles por día. Por mi cuenta construí y opero Clara, un asistente de WhatsApp que atiende pacientes y agenda turnos en clínicas.
+
+Desarrollo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI, el estándar de code review que uso para eso.
 
 ## Experiencia
 
 ### Backend Developer — QTECH Soluciones Informáticas
 *Mayo 2023 — actualidad · Remoto · Laravel, Node.js, SQL Server, MySQL, WebSockets, Azure*
 
-- Líder técnico de integraciones de receta electrónica: conectores desde cero con cinco repositorios (OSDE, Farmalink, Preserfar, Admifarm) y con el Ministerio de Salud (Bus MSAL: PUCO, SISA). Miles de prescripciones por día.
-- Lideré la app de pacientes que se vende a redes de clínicas: backend desde cero y adaptación de módulos del HIS para móvil. Un cliente supera los 3.000 usuarios activos.
-- Módulos del HIS: portales de pacientes y profesionales, turnos, historias clínicas, facturación, y migración gradual del legado (PHP plano, PowerBuilder) a Laravel.
-- Llamador web en tiempo real con WebSockets para turnos y colas de espera en centros de salud.
-- SQL Server avanzado: procedimientos almacenados, vistas y funciones para procesamiento de datos médicos.
+- Lideré las integraciones de receta electrónica: conectores desde cero con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud (PUCO, SISA). Procesan miles de recetas por día.
+- Lideré el backend de la app de pacientes que la empresa vende a redes de clínicas. El cliente más grande supera los 3.000 usuarios activos.
+- Migración gradual del HIS legado (PHP plano, PowerBuilder) a Laravel.
+- Llamador de turnos en tiempo real con WebSockets para salas de espera de centros de salud.
 
-### Backend Developer — Basisty, Fuentes & Assoc
-*Diciembre 2022 — marzo 2023 · Remoto · .NET 6, C#, Entity Framework, PostgreSQL, Angular, xUnit*
+### Contratos cortos — Basisty, Fuentes & Assoc · Extendeal
+*Diciembre 2022 — marzo 2023 · Remoto · .NET 6, C#, PostgreSQL, Python, FastAPI, AWS*
 
-- APIs REST en .NET 6 con Entity Framework y PostgreSQL, arquitectura MVC, pruebas con xUnit y frontend en Angular.
+- APIs REST en .NET 6 con Entity Framework y pruebas con xUnit; scraping para la industria farmacéutica con FastAPI y Selenium sobre AWS.
 
-### Python Developer — Extendeal
-*Diciembre 2022 — febrero 2023 · Remoto · Python, FastAPI, Selenium, AWS (S3, RDS), Scrum*
-
-- Scraping para la industria farmacéutica con FastAPI y Selenium, almacenamiento en AWS.
-
-## Proyecto propio
+## Proyectos propios
 
 ### Clara — asistente de WhatsApp para clínicas
 *2025 — actualidad · [clara.net.ar](https://clara.net.ar) · NestJS, Next.js, Prisma, PostgreSQL, Redis, Docker, Claude API*
 
-- Producto SaaS multi-tenant: un asistente conversacional que atiende pacientes por WhatsApp, agenda turnos y se integra con el sistema de la clínica; backoffice para administrar organizaciones, agendas y planes.
-- Diseño, desarrollo y operación completos: monorepo, colas, despliegue con Docker en VPS, monitoreo y respaldo.
+- SaaS multi-tenant en producción: atiende pacientes por WhatsApp, agenda turnos y se integra con el sistema de la clínica.
+- Lo diseñé, construí y opero solo: colas, despliegue con Docker, monitoreo y respaldos.
+
+### NAIKI — estándar de code review para desarrollo con IA
+*Open source · [github.com/EstebanDiaczunn/naiki](https://github.com/EstebanDiaczunn/naiki) · Claude Code, Codex, OpenCode*
+
+- Revisión con criterio de lo que escribe un agente: proporcionalidad, entendimiento del dominio y autoevaluación honesta. Se instala como plugin.
 
 ## Educación
 
-- **Tecnicatura en Programación** — desde 2025.
+- **Tecnicatura en Programación** — en curso, desde 2025.
 - **Licenciatura en Análisis de Sistemas**, Instituto Superior N.º 24 — dos años cursados.
-- Bootcamp C# y .NET (OpenBootcamp) · Python y Django (Coderhouse).
 
 ## Habilidades
 
-- **Lenguajes y frameworks:** PHP, Laravel, JavaScript, TypeScript, Node.js, NestJS, Express, Python, Django, FastAPI, C#, .NET, Go.
-- **Bases de datos:** SQL Server, T-SQL, MySQL, PostgreSQL, MongoDB, Redis.
-- **IA:** Claude API, OpenAI, tool calling, bots de WhatsApp (Twilio, Meta).
-- **Asincronía:** RabbitMQ, arquitectura orientada a eventos, WebSockets, colas.
-- **Infraestructura:** Docker, Git, GitHub, GitLab, Bitbucket, AWS (EC2, S3, RDS, DynamoDB), Azure.
-- **Arquitectura:** Clean Code, SOLID, DDD, APIs REST, sistemas multi-tenant.
+- **Backend:** TypeScript, NestJS, Node.js, PHP, Laravel, C#, .NET, Python.
+- **Datos:** SQL Server, PostgreSQL, MySQL, Redis.
+- **IA:** Claude API, tool calling, agentes de código (Claude Code), bots de WhatsApp (Meta, Twilio).
+- **Integraciones y asincronía:** APIs de salud, colas, RabbitMQ, WebSockets.
+- **Infraestructura:** Docker, AWS, Azure.
 
 ## Idiomas
 
-- **Español:** nativo. **Inglés:** B2.
+- **Español:** nativo. **Inglés:** intermedio, en curso.
