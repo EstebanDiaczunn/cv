@@ -55,18 +55,22 @@ Looking for remote roles or contracts with teams that need AI agents that actual
 ### Backend Developer — QTECH Soluciones Informáticas (may 2023 – actualidad, remoto)
 
 ES:
-- Lideré las integraciones de receta electrónica: conectores desde cero con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud (PUCO, SISA). Procesan miles de recetas por día.
-- Lideré el backend de la app de pacientes que la empresa vende a redes de clínicas. El cliente más grande supera los 3.000 usuarios activos.
-- Migración gradual del HIS legado (PHP plano, PowerBuilder) a Laravel.
-- Llamador de turnos en tiempo real con WebSockets para salas de espera.
+- Receta electrónica: lideré los conectores con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud (PUCO, SISA). Miles de recetas por día.
+- Cobros y facturación: Mercado Pago con QR y link de pago, y factura electrónica con ARCA.
+- Lideré el backend de la app de pacientes que la empresa vende a redes de clínicas; el cliente más grande supera los 3.000 usuarios activos.
+- Asistente de IA del médico sobre la historia clínica: cada dato viene con la frase literal del registro; rechaza conducta clínica.
+- Módulos del HIS: turnos, historias clínicas, informes, facturación y portales de pacientes y profesionales; llamador de turnos en tiempo real con WebSockets.
+- Migración gradual del legado (PHP plano, PowerBuilder) a Laravel, y SQL Server a fondo: procedimientos almacenados, vistas y funciones.
 
-Aptitudes: Laravel · Node.js · SQL Server · WebSockets · Azure
+Aptitudes: Laravel · SQL Server · Mercado Pago · WebSockets · Integración de sistemas de salud
 
 EN:
-- Led the e-prescription integrations: connectors built from scratch with OSDE, Farmalink, Preserfar, Admifarm and the Ministry of Health bus (PUCO, SISA). They process thousands of prescriptions a day.
-- Led the backend of the patient app the company sells to clinic networks. The largest client has 3,000+ active users.
-- Gradual migration of the legacy HIS (vanilla PHP, PowerBuilder) to Laravel.
-- Real-time appointment caller with WebSockets for waiting rooms.
+- E-prescriptions: led the connectors with OSDE, Farmalink, Preserfar, Admifarm and the Ministry of Health bus (PUCO, SISA). Thousands a day.
+- Payments and invoicing: Mercado Pago QR and payment links, and e-invoicing with the tax agency (ARCA).
+- Led the backend of the patient app sold to clinic networks; the largest client has 3,000+ active users.
+- AI assistant for doctors over the medical record: every fact comes with the literal quote from the record; refuses clinical advice.
+- HIS modules: scheduling, medical records, reports, billing, patient and practitioner portals; real-time waiting-room caller with WebSockets.
+- Gradual migration of the legacy system (vanilla PHP, PowerBuilder) to Laravel, and deep SQL Server work: stored procedures, views and functions.
 
 ### Fundador · Backend & AI Engineer — Clara (2025 – actualidad)
 

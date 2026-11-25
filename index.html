@@ -27,32 +27,34 @@
 </header>
 <section class="bloque"><h2>Perfil</h2><div class="cont">
 <p>Backend engineer con tres años en sistemas de salud y tres productos propios en producción. Lo mío es el software que funciona contra sistemas reales: integraciones con obras sociales, receta electrónica, ARCA y el Ministerio de Salud, y agentes de IA que trabajan sobre eso sin inventar, porque el código calcula y el modelo sólo propone.</p>
-<p>Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA (especifico, reviso y verifico), despliegue y operación en producción.</p>
+<p>Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA, despliegue y operación.</p>
 </div></section><section class="bloque"><h2>Productos propios</h2><div class="cont">
 <div class="puesto"><h3>Rúbrica — sistema contable y fiscal con agentes</h3><span class="fechas">2026 — actualidad</span></div><p class="meta"><a href="https://rubrica.ar">rubrica.ar</a> · NestJS, Next.js, PostgreSQL, Drizzle, BullMQ, Redis, MCP</p>
 <ul>
 <li>Los agentes hacen el mes de una PyME: cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador firma.</li>
 <li>Regla de diseño: ningún importe lo escribe un modelo. Lo calcula el código con la norma citada; el modelo sólo elige entre opciones que le da la base, con la confianza a la vista.</li>
-<li>Factura electrónica con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores que miden el producto en producción antes de desplegar.</li>
+<li>Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores en producción.</li>
 </ul>
 <div class="puesto"><h3>Clara Agenda — turnos y asistente de WhatsApp para consultorios</h3><span class="fechas">2025 — actualidad</span></div><p class="meta"><a href="https://clara.net.ar/agenda">clara.net.ar/agenda</a> · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API</p>
 <ul>
 <li>Agenda propia y un agente que atiende a los pacientes por WhatsApp y da turnos, con obras sociales y particulares, a través de un servidor MCP.</li>
-<li>Sale del agente de pacientes para clínicas que construí, hoy de AXONICO (QTech) en exclusiva.</li>
+<li>Sale del agente para clínicas que construí, hoy de AXONICO (QTech) en exclusiva.</li>
 <li>Lo opero solo: Docker, colas, monitoreo y respaldos.</li>
 </ul>
 <div class="puesto"><h3>Clara Pericias — revisión de pericias médicas para abogados laborales</h3><span class="fechas">2026 — actualidad</span></div><p class="meta"><a href="https://pericias.clara.net.ar">pericias.clara.net.ar</a> · Next.js, TypeScript, LLM, docx</p>
 <ul>
-<li>Lee la pericia de un juicio por accidente de trabajo y audita cada porcentaje de incapacidad contra el baremo que corresponde; calcula la diferencia en pesos y redacta en Word el borrador para impugnarla, con citas verificadas.</li>
-<li>Medido contra fallos públicos que no había visto. Si el modelo falla, lee por reglas; más de 3.000 pruebas.</li>
+<li>Audita la pericia de un juicio laboral contra el baremo, calcula la diferencia en pesos y redacta la impugnación en Word, con citas verificadas.</li>
+<li>Medido contra fallos que no había visto; si el modelo falla, lee por reglas.</li>
 </ul>
 </div></section><section class="bloque"><h2>Experiencia</h2><div class="cont">
-<div class="puesto"><h3>Backend Developer — QTECH Soluciones Informáticas</h3><span class="fechas">Mayo 2023 — actualidad</span></div><p class="meta">Remoto · Laravel, Node.js, SQL Server, MySQL, WebSockets, Azure</p>
+<div class="puesto"><h3>Backend Developer — QTECH Soluciones Informáticas</h3><span class="fechas">Mayo 2023 — actualidad</span></div><p class="meta">Remoto · AXONICO HIS · Laravel, PHP, TypeScript, Node.js, SQL Server, MySQL, WebSockets, Azure</p>
 <ul>
-<li>Lideré la receta electrónica con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud: miles de recetas por día.</li>
-<li>Lideré el backend de la app de pacientes que la empresa vende a redes de clínicas. El cliente más grande supera los 3.000 usuarios activos.</li>
-<li>Migración gradual del HIS legado (PHP plano, PowerBuilder) a Laravel.</li>
-<li>Llamador de turnos en tiempo real con WebSockets para salas de espera.</li>
+<li>Receta electrónica: lideré los conectores con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud (PUCO, SISA). Miles de recetas por día.</li>
+<li>Cobros y facturación: Mercado Pago con QR y link de pago, y factura electrónica con ARCA.</li>
+<li>Lideré el backend de la app de pacientes para redes de clínicas: el mayor cliente supera 3.000 usuarios.</li>
+<li>Asistente de IA del médico sobre la historia clínica, con la cita literal de cada dato.</li>
+<li>Módulos del HIS (turnos, historia clínica, informes, facturación, portales) y llamador con WebSockets.</li>
+<li>Migración del legado (PHP plano, PowerBuilder) a Laravel; SQL Server a fondo (SPs, vistas, funciones).</li>
 </ul>
 <div class="puesto"><h3>Contratos cortos — Basisty, Fuentes &amp; Assoc · Extendeal</h3><span class="fechas">Diciembre 2022 — marzo 2023</span></div><p class="meta">Remoto · .NET 6, C#, PostgreSQL, Python, FastAPI, AWS</p>
 <ul>
@@ -69,10 +71,7 @@
 <li><strong>Datos:</strong> PostgreSQL, SQL Server, MySQL, Redis, Drizzle, Prisma, BullMQ.</li>
 <li><strong>IA:</strong> Claude API, MCP, tool calling, agentes con evaluadores, Claude Code, bots de WhatsApp.</li>
 <li><strong>Infraestructura y asincronía:</strong> Docker, AWS, Azure, RabbitMQ, WebSockets.</li>
-</ul>
-</div></section><section class="bloque"><h2>Idiomas</h2><div class="cont">
-<ul>
-<li><strong>Español:</strong> nativo. <strong>Inglés:</strong> intermedio, en curso.</li>
+<li><strong>Idiomas:</strong> español nativo; inglés intermedio, en curso.</li>
 </ul>
 </div></section>
 </main>

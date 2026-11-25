@@ -17,7 +17,7 @@ descripcion: CV de Esteban Nicolás Diaczun, backend & AI engineer, integracione
 
 Backend engineer con tres años en sistemas de salud y tres productos propios en producción. Lo mío es el software que funciona contra sistemas reales: integraciones con obras sociales, receta electrónica, ARCA y el Ministerio de Salud, y agentes de IA que trabajan sobre eso sin inventar, porque el código calcula y el modelo sólo propone.
 
-Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA (especifico, reviso y verifico), despliegue y operación en producción.
+Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA, despliegue y operación.
 
 
 ## Productos propios
@@ -27,31 +27,33 @@ Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA (especifi
 
 - Los agentes hacen el mes de una PyME: cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador firma.
 - Regla de diseño: ningún importe lo escribe un modelo. Lo calcula el código con la norma citada; el modelo sólo elige entre opciones que le da la base, con la confianza a la vista.
-- Factura electrónica con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores que miden el producto en producción antes de desplegar.
+- Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores en producción.
 
 
 ### Clara Agenda — turnos y asistente de WhatsApp para consultorios
 *2025 — actualidad · [clara.net.ar/agenda](https://clara.net.ar/agenda) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
 
 - Agenda propia y un agente que atiende a los pacientes por WhatsApp y da turnos, con obras sociales y particulares, a través de un servidor MCP.
-- Sale del agente de pacientes para clínicas que construí, hoy de AXONICO (QTech) en exclusiva.
+- Sale del agente para clínicas que construí, hoy de AXONICO (QTech) en exclusiva.
 - Lo opero solo: Docker, colas, monitoreo y respaldos.
 
 ### Clara Pericias — revisión de pericias médicas para abogados laborales
 *2026 — actualidad · [pericias.clara.net.ar](https://pericias.clara.net.ar) · Next.js, TypeScript, LLM, docx*
 
-- Lee la pericia de un juicio por accidente de trabajo y audita cada porcentaje de incapacidad contra el baremo que corresponde; calcula la diferencia en pesos y redacta en Word el borrador para impugnarla, con citas verificadas.
-- Medido contra fallos públicos que no había visto. Si el modelo falla, lee por reglas; más de 3.000 pruebas.
+- Audita la pericia de un juicio laboral contra el baremo, calcula la diferencia en pesos y redacta la impugnación en Word, con citas verificadas.
+- Medido contra fallos que no había visto; si el modelo falla, lee por reglas.
 
 ## Experiencia
 
 ### Backend Developer — QTECH Soluciones Informáticas
-*Mayo 2023 — actualidad · Remoto · Laravel, Node.js, SQL Server, MySQL, WebSockets, Azure*
+*Mayo 2023 — actualidad · Remoto · AXONICO HIS · Laravel, PHP, TypeScript, Node.js, SQL Server, MySQL, WebSockets, Azure*
 
-- Lideré la receta electrónica con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud: miles de recetas por día.
-- Lideré el backend de la app de pacientes que la empresa vende a redes de clínicas. El cliente más grande supera los 3.000 usuarios activos.
-- Migración gradual del HIS legado (PHP plano, PowerBuilder) a Laravel.
-- Llamador de turnos en tiempo real con WebSockets para salas de espera.
+- Receta electrónica: lideré los conectores con OSDE, Farmalink, Preserfar, Admifarm y el Bus del Ministerio de Salud (PUCO, SISA). Miles de recetas por día.
+- Cobros y facturación: Mercado Pago con QR y link de pago, y factura electrónica con ARCA.
+- Lideré el backend de la app de pacientes para redes de clínicas: el mayor cliente supera 3.000 usuarios.
+- Asistente de IA del médico sobre la historia clínica, con la cita literal de cada dato.
+- Módulos del HIS (turnos, historia clínica, informes, facturación, portales) y llamador con WebSockets.
+- Migración del legado (PHP plano, PowerBuilder) a Laravel; SQL Server a fondo (SPs, vistas, funciones).
 
 ### Contratos cortos — Basisty, Fuentes & Assoc · Extendeal
 *Diciembre 2022 — marzo 2023 · Remoto · .NET 6, C#, PostgreSQL, Python, FastAPI, AWS*
@@ -69,7 +71,4 @@ Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA (especifi
 - **Datos:** PostgreSQL, SQL Server, MySQL, Redis, Drizzle, Prisma, BullMQ.
 - **IA:** Claude API, MCP, tool calling, agentes con evaluadores, Claude Code, bots de WhatsApp.
 - **Infraestructura y asincronía:** Docker, AWS, Azure, RabbitMQ, WebSockets.
-
-## Idiomas
-
-- **Español:** nativo. **Inglés:** intermedio, en curso.
+- **Idiomas:** español nativo; inglés intermedio, en curso.
