@@ -5,39 +5,39 @@ Perfil en español como principal + perfil secundario en inglés (Perfil → «A
 
 ## Titular
 
-ES: `AI Engineer · Productos con IA en producción: Rúbrica (contabilidad con agentes) y Clara Agenda (consultorios) · TypeScript, NestJS, MCP`
+ES: `Backend & AI Engineer · Agentes de IA confiables sobre sistemas reales · Integraciones, NestJS, TypeScript`
 
-EN: `AI Engineer · AI products in production: Rúbrica (agent-run accounting) and Clara Agenda (medical practices) · TypeScript, NestJS, MCP`
+EN: `Backend & AI Engineer · Reliable AI agents on real-world systems · Integrations, NestJS, TypeScript`
 
 ## Acerca de
 
 ### ES
 
-Construyo productos con IA y los pongo en producción. Dos son míos y están andando.
+Backend engineer con tres años en sistemas de salud y dos productos propios en producción.
 
-Rúbrica (rubrica.ar) es un sistema contable y fiscal para PyMEs argentinas: los agentes cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador revisa y firma. La regla de diseño es que ningún importe lo escribe un modelo: lo calcula el código con la norma citada. Tiene servidor MCP, más de 3.000 pruebas automáticas y agentes evaluadores que lo miden en producción antes de cada despliegue.
+Lo mío es el software que funciona contra sistemas reales. En QTECH conecté la receta electrónica con cinco repositorios (OSDE, Farmalink, Preserfar, Admifarm) y con el Bus del Ministerio de Salud; hoy pasan miles de recetas por día. Y construyo agentes de IA que trabajan sobre esos sistemas sin inventar: el código calcula, el modelo sólo propone.
 
-Clara Agenda (clara.net.ar) es una agenda con un asistente de WhatsApp que da turnos a los pacientes de consultorios chicos. Sale del agente de pacientes para clínicas que construí y le vendí a AXONICO (QTech).
+Rúbrica (rubrica.ar) es un sistema contable y fiscal para PyMEs argentinas: los agentes cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador revisa y firma. Ningún importe lo escribe un modelo. Tiene servidor MCP, más de 3.000 pruebas automáticas y agentes evaluadores que lo miden en producción antes de cada despliegue.
 
-Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego.
+Clara Agenda (clara.net.ar) es una agenda con un asistente de WhatsApp que da turnos a los pacientes de consultorios chicos. Sale del agente de pacientes para clínicas que construí antes, hoy de AXONICO (QTech), que lo ofrece en exclusiva.
 
-De día hago backend de salud en QTECH: la receta electrónica que conecté con cinco repositorios y el Ministerio de Salud procesa miles de recetas por día.
+Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA, despliegue y operación.
 
-Busco un equipo remoto que construya productos con IA.
+Busco trabajo remoto o contratos con equipos que necesiten agentes de IA que funcionen de verdad contra sistemas reales.
 
 ### EN
 
-I build AI products and run them in production. Two are mine and live.
+Backend engineer with three years in healthcare systems and two products of my own in production.
 
-Rúbrica (rubrica.ar) is an accounting and tax system for Argentine SMBs: agents load invoices from the tax agency and the bank, categorize, reconcile and compute taxes and payroll; the accountant reviews and signs. The design rule is that no amount is ever written by a model: code computes it and cites the regulation. It ships an MCP server, 3,000+ automated tests, and evaluator agents that score it on production before every deploy.
+My thing is software that works against real systems. At QTECH I connected e-prescriptions to five national providers (OSDE, Farmalink, Preserfar, Admifarm) and the Ministry of Health bus; thousands of prescriptions go through every day. And I build AI agents that work on top of those systems without making things up: code computes, the model only proposes.
 
-Clara Agenda (clara.net.ar) is a scheduling system with a WhatsApp assistant that books appointments for small medical practices. It grew out of the patient agent for clinics I built and sold to AXONICO (QTech).
+Rúbrica (rubrica.ar) is an accounting and tax system for Argentine SMBs: agents load invoices from the tax agency and the bank, categorize, reconcile and compute taxes and payroll; the accountant reviews and signs. No amount is ever written by a model. It ships an MCP server, 3,000+ automated tests, and evaluator agents that score it on production before every deploy.
 
-I work by directing AI agents: I write the spec, review every change, verify, and ship.
+Clara Agenda (clara.net.ar) is a scheduling system with a WhatsApp assistant that books appointments for small medical practices. It grew out of the clinic patient agent I built earlier, now owned by AXONICO (QTech), which offers it exclusively.
 
-By day I do healthcare backend at QTECH: the e-prescription integration I built with five national providers and the Ministry of Health handles thousands of prescriptions a day.
+I cover the whole path: design, building by directing AI agents, deployment and operations.
 
-Looking for a remote team building AI products.
+Looking for remote roles or contracts with teams that need AI agents that actually work against real systems.
 
 ## Destacados (sección «Destacado», en este orden)
 
@@ -63,21 +63,23 @@ EN:
 - Gradual migration of the legacy HIS (vanilla PHP, PowerBuilder) to Laravel.
 - Real-time appointment caller with WebSockets for waiting rooms.
 
-### Fundador y AI Engineer — Clara (2025 – actualidad)
+### Fundador · Backend & AI Engineer — Clara (2025 – actualidad)
 
-Va PRIMERO en Experiencia (arriba de QTECH). Título EN: Founder & AI Engineer.
+Va PRIMERO en Experiencia (arriba de QTECH). Título EN: Founder · Backend & AI Engineer.
 
 ES:
 - Rúbrica (rubrica.ar): sistema contable y fiscal donde los agentes hacen el mes y el contador firma. Ningún importe lo escribe un modelo; lo calcula el código con la norma citada. Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores sobre producción.
 - Clara Agenda (clara.net.ar): agenda con asistente de WhatsApp para consultorios chicos, con obras sociales, sobre un servidor MCP.
-- Construí el agente de pacientes para clínicas y se lo vendí a AXONICO (QTech), que lo vende con exclusividad.
+- Construí el agente de pacientes para clínicas que hoy es de AXONICO (QTech), que lo ofrece en exclusiva.
+- Opero todo solo: Docker, colas, monitoreo y respaldos.
 
 Aptitudes: Claude API · MCP · NestJS · Next.js · PostgreSQL
 
 EN:
 - Rúbrica (rubrica.ar): accounting and tax system where agents run the month and the accountant signs. No amount is written by a model; code computes it and cites the regulation. E-invoicing with the tax agency, MCP server, 3,000+ tests and evaluator agents on production.
 - Clara Agenda (clara.net.ar): scheduling system with a WhatsApp assistant for small medical practices, insurance included, on an MCP server.
-- Built the patient agent for clinics and sold it to AXONICO (QTech), which sells it exclusively.
+- Built the clinic patient agent now owned by AXONICO (QTech), which offers it exclusively.
+- I run everything alone: Docker, queues, monitoring and backups.
 
 ### Backend Developer — Basisty, Fuentes & Assoc (dic 2022 – mar 2023, contrato)
 
@@ -94,7 +96,7 @@ En LinkedIn cada puesto va por separado; marcá los dos de 2022 como tipo de emp
 
 ## Aptitudes principales (las 5 fijadas arriba)
 
-Claude API · MCP · TypeScript · NestJS · Integración de sistemas de salud
+Backend · Agentes de IA · Integración de sistemas · NestJS · TypeScript
 
 Borrar del perfil: Go, Django, MongoDB, Bitbucket, «Clean Code», «SOLID» y cualquier aptitud sin evidencia.
 
@@ -104,6 +106,6 @@ Español: nativo o bilingüe. Inglés: competencia básica profesional (subirlo 
 
 ## Ajustes
 
-- «Open to work»: sólo visible para reclutadores. Puestos: AI Engineer, Forward Deployed Engineer, Backend Engineer, Integration Engineer. Ubicación: Remoto. Tipo: tiempo completo y contrato.
+- «Open to work»: sólo visible para reclutadores. Puestos: Backend Engineer, AI Engineer, Forward Deployed Engineer, Integration Engineer. Ubicación: Remoto. Tipo: tiempo completo y contrato.
 - URL pública: linkedin.com/in/esteban-diaczun.
 - Foto profesional y banner liso; sin frases motivacionales en el banner.

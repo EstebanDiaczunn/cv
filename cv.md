@@ -1,7 +1,7 @@
 ---
 idioma: es
 nombre: Esteban Nicolás Diaczun
-rol: AI Engineer · productos con IA en producción
+rol: Backend & AI Engineer · agentes de IA confiables sobre sistemas reales
 ciudad: Buenos Aires, Argentina · remoto
 mail: esteban@diaczun.com
 web: diaczun.com
@@ -10,14 +10,14 @@ linkedin: linkedin.com/in/esteban-diaczun
 pdf: esteban-diaczun.pdf
 otro_idioma: English
 otro_url: /en/
-descripcion: CV de Esteban Nicolás Diaczun, AI engineer, productos con IA en producción en contabilidad y salud.
+descripcion: CV de Esteban Nicolás Diaczun, backend & AI engineer, integraciones, agentes de IA confiables y producción.
 ---
 
 ## Perfil
 
-Construyo productos con IA y los pongo en producción. Dos son míos y están andando: Rúbrica, un sistema contable y fiscal donde los agentes hacen el mes y el contador firma, y Clara Agenda, turnos con un asistente de WhatsApp para consultorios chicos.
+Backend engineer con tres años en sistemas de salud y dos productos propios en producción. Lo mío es el software que funciona contra sistemas reales: integraciones con obras sociales, receta electrónica, ARCA y el Ministerio de Salud, y agentes de IA que trabajan sobre eso sin inventar, porque el código calcula y el modelo sólo propone.
 
-Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. De día, hace tres años, backend de sistemas de salud en QTECH.
+Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA (especifico, reviso y verifico), despliegue y operación en producción.
 
 
 ## Productos propios
@@ -35,7 +35,8 @@ Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio
 *2025 — actualidad · [clara.net.ar](https://clara.net.ar) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
 
 - Agenda propia y un agente que atiende a los pacientes por WhatsApp y da turnos, con obras sociales y particulares, a través de un servidor MCP.
-- Sale del agente de pacientes para clínicas que construí y le vendí a AXONICO (QTech), que lo vende con exclusividad.
+- Sale del agente de pacientes para clínicas que construí antes, hoy de AXONICO (QTech), que lo ofrece en exclusiva.
+- Lo opero solo: Docker, colas, monitoreo y respaldos.
 
 ## Experiencia
 

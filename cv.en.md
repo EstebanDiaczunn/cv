@@ -1,7 +1,7 @@
 ---
 idioma: en
 nombre: Esteban Nicolás Diaczun
-rol: AI Engineer · AI products in production
+rol: Backend & AI Engineer · reliable AI agents on real-world systems
 ciudad: Buenos Aires, Argentina · remote
 mail: esteban@diaczun.com
 web: diaczun.com
@@ -10,14 +10,14 @@ linkedin: linkedin.com/in/esteban-diaczun
 pdf: esteban-diaczun-en.pdf
 otro_idioma: Español
 otro_url: /
-descripcion: Résumé of Esteban Nicolás Diaczun, AI engineer, AI products in production in accounting and healthcare.
+descripcion: Résumé of Esteban Nicolás Diaczun, backend & AI engineer, integrations, reliable AI agents and production.
 ---
 
 ## Profile
 
-I build AI products and run them in production. Two are mine and live: Rúbrica, an accounting and tax system where agents do the month and the accountant signs off, and Clara Agenda, scheduling with a WhatsApp assistant for small medical practices.
+Backend engineer with three years in healthcare systems and two products of my own in production. My thing is software that works against real systems: integrations with insurers, e-prescription networks, the tax agency and the Ministry of Health, and AI agents that work on top of them without making things up, because code computes and the model only proposes.
 
-I work by directing AI agents: I write the spec, review every change, verify, and ship. By day, for three years now, healthcare backend at QTECH.
+I cover the whole path: design, building by directing AI agents (I spec, review and verify), deployment and running it in production.
 
 
 ## Own products
@@ -35,7 +35,8 @@ I work by directing AI agents: I write the spec, review every change, verify, an
 *2025 — present · [clara.net.ar](https://clara.net.ar) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
 
 - Own scheduling system plus a WhatsApp agent that books appointments, insured or private, through an MCP server.
-- Grew out of the clinic patient agent I built and sold to AXONICO (QTech), which sells it exclusively.
+- Grew out of the clinic patient agent I built earlier, now owned by AXONICO (QTech), which offers it exclusively.
+- I run it alone: Docker, queues, monitoring and backups.
 
 ## Experience
 
