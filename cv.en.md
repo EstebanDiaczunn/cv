@@ -15,7 +15,7 @@ descripcion: Résumé of Esteban Nicolás Diaczun, backend & AI engineer, integr
 
 ## Profile
 
-Backend engineer with three years in healthcare systems and two products of my own in production. My thing is software that works against real systems: integrations with insurers, e-prescription networks, the tax agency and the Ministry of Health, and AI agents that work on top of them without making things up, because code computes and the model only proposes.
+Backend engineer with three years in healthcare systems and three products of my own in production. My thing is software that works against real systems: integrations with insurers, e-prescription networks, the tax agency and the Ministry of Health, and AI agents that work on top of them without making things up, because code computes and the model only proposes.
 
 I cover the whole path: design, building by directing AI agents (I spec, review and verify), deployment and running it in production.
 
@@ -25,25 +25,30 @@ I cover the whole path: design, building by directing AI agents (I spec, review 
 ### Rúbrica — agent-run accounting and tax system
 *2026 — present · [rubrica.ar](https://rubrica.ar) · NestJS, Next.js, PostgreSQL, Drizzle, BullMQ, Redis, MCP*
 
-- Agents run the month for Argentine SMBs: they load tax-agency invoices and bank statements, categorize, reconcile, and compute taxes and payroll. The accountant signs.
+- Agents run the month for SMBs: they load tax and bank records, categorize, reconcile, and compute taxes and payroll; the accountant signs.
 - Design rule: no amount is ever written by a model. Code computes it and cites the regulation; the model only picks among options the database gives it, with its confidence shown.
-- E-invoicing with ARCA authorization codes, validated filing exports, and an MCP server so clients can use their own assistant.
-- 3,000+ automated tests, plus independent evaluator agents that score the product on production before each deploy.
+- E-invoicing with the tax agency, an MCP server, 3,000+ tests, and evaluator agents that score the product on production before each deploy.
 
 
 ### Clara Agenda — scheduling and WhatsApp assistant for medical practices
-*2025 — present · [clara.net.ar](https://clara.net.ar) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
+*2025 — present · [clara.net.ar/agenda](https://clara.net.ar/agenda) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
 
 - Own scheduling system plus a WhatsApp agent that books appointments, insured or private, through an MCP server.
-- Grew out of the clinic patient agent I built earlier, now owned by AXONICO (QTech), which offers it exclusively.
+- Grew out of the clinic patient agent I built, now owned by AXONICO (QTech) exclusively.
 - I run it alone: Docker, queues, monitoring and backups.
+
+### Clara Pericias — medical report review for labor lawyers
+*2026 — present · [pericias.clara.net.ar](https://pericias.clara.net.ar) · Next.js, TypeScript, LLM, docx*
+
+- Reads the court medical report in a workplace-injury case and audits every disability percentage against the applicable official schedule; computes the difference in pesos and drafts the challenge in Word, with verified citations.
+- Measured against public rulings it had never seen. If the model fails, it falls back to rules; 3,000+ tests.
 
 ## Experience
 
 ### Backend Developer — QTECH Soluciones Informáticas
 *May 2023 — present · Remote · Laravel, Node.js, SQL Server, MySQL, WebSockets, Azure*
 
-- Led the e-prescription integrations: connectors built from scratch with OSDE, Farmalink, Preserfar, Admifarm and the Ministry of Health bus (PUCO, SISA). They process thousands of prescriptions a day.
+- Led e-prescription integrations with OSDE, Farmalink, Preserfar, Admifarm and the Ministry of Health bus: thousands a day.
 - Led the backend of the patient app the company sells to clinic networks. The largest client has 3,000+ active users.
 - Gradual migration of the legacy HIS (vanilla PHP, PowerBuilder) to Laravel.
 - Real-time appointment caller with WebSockets for waiting rooms.
@@ -51,7 +56,7 @@ I cover the whole path: design, building by directing AI agents (I spec, review 
 ### Short contracts — Basisty, Fuentes & Assoc · Extendeal
 *December 2022 — March 2023 · Remote · .NET 6, C#, PostgreSQL, Python, FastAPI, AWS*
 
-- REST APIs in .NET 6 with Entity Framework and xUnit tests; web scraping for the pharmaceutical industry with FastAPI and Selenium on AWS.
+- .NET 6 APIs with xUnit; pharma web scraping with FastAPI and Selenium on AWS.
 
 ## Education
 
@@ -62,7 +67,7 @@ I cover the whole path: design, building by directing AI agents (I spec, review 
 
 - **Backend:** TypeScript, NestJS, Next.js, Node.js, PHP, Laravel, C#, .NET, Python.
 - **Data:** PostgreSQL, SQL Server, MySQL, Redis, Drizzle, Prisma, BullMQ.
-- **AI:** Claude API, MCP, tool calling, agent systems with evaluators, coding agents (Claude Code), WhatsApp bots (Meta, Twilio).
+- **AI:** Claude API, MCP, tool calling, agents with evaluators, Claude Code, WhatsApp bots.
 - **Infrastructure & async:** Docker, AWS, Azure, RabbitMQ, WebSockets.
 
 ## Languages

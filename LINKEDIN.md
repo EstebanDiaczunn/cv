@@ -13,13 +13,15 @@ EN: `Backend & AI Engineer · Reliable AI agents on real-world systems · Integr
 
 ### ES
 
-Backend engineer con tres años en sistemas de salud y dos productos propios en producción.
+Backend engineer con tres años en sistemas de salud y tres productos propios en producción.
 
 Lo mío es el software que funciona contra sistemas reales. En QTECH conecté la receta electrónica con cinco repositorios (OSDE, Farmalink, Preserfar, Admifarm) y con el Bus del Ministerio de Salud; hoy pasan miles de recetas por día. Y construyo agentes de IA que trabajan sobre esos sistemas sin inventar: el código calcula, el modelo sólo propone.
 
 Rúbrica (rubrica.ar) es un sistema contable y fiscal para PyMEs argentinas: los agentes cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador revisa y firma. Ningún importe lo escribe un modelo. Tiene servidor MCP, más de 3.000 pruebas automáticas y agentes evaluadores que lo miden en producción antes de cada despliegue.
 
-Clara Agenda (clara.net.ar) es una agenda con un asistente de WhatsApp que da turnos a los pacientes de consultorios chicos. Sale del agente de pacientes para clínicas que construí antes, hoy de AXONICO (QTech), que lo ofrece en exclusiva.
+Clara Agenda (clara.net.ar/agenda) es una agenda con un asistente de WhatsApp que da turnos a los pacientes de consultorios chicos. Sale del agente de pacientes para clínicas que construí antes, hoy de AXONICO (QTech), que lo ofrece en exclusiva.
+
+Clara Pericias (pericias.clara.net.ar) es para abogados de juicios por accidentes de trabajo: lee la pericia médica, audita cada porcentaje contra el baremo, calcula la diferencia en pesos y redacta el borrador de impugnación en Word, con citas verificadas.
 
 Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA, despliegue y operación.
 
@@ -27,13 +29,15 @@ Busco trabajo remoto o contratos con equipos que necesiten agentes de IA que fun
 
 ### EN
 
-Backend engineer with three years in healthcare systems and two products of my own in production.
+Backend engineer with three years in healthcare systems and three products of my own in production.
 
 My thing is software that works against real systems. At QTECH I connected e-prescriptions to five national providers (OSDE, Farmalink, Preserfar, Admifarm) and the Ministry of Health bus; thousands of prescriptions go through every day. And I build AI agents that work on top of those systems without making things up: code computes, the model only proposes.
 
 Rúbrica (rubrica.ar) is an accounting and tax system for Argentine SMBs: agents load invoices from the tax agency and the bank, categorize, reconcile and compute taxes and payroll; the accountant reviews and signs. No amount is ever written by a model. It ships an MCP server, 3,000+ automated tests, and evaluator agents that score it on production before every deploy.
 
-Clara Agenda (clara.net.ar) is a scheduling system with a WhatsApp assistant that books appointments for small medical practices. It grew out of the clinic patient agent I built earlier, now owned by AXONICO (QTech), which offers it exclusively.
+Clara Agenda (clara.net.ar/agenda) is a scheduling system with a WhatsApp assistant that books appointments for small medical practices. It grew out of the clinic patient agent I built earlier, now owned by AXONICO (QTech), which offers it exclusively.
+
+Clara Pericias (pericias.clara.net.ar) is for workplace-injury lawyers: it reads the court medical report, audits every disability percentage against the official schedule, computes the difference in pesos and drafts the challenge in Word, with verified citations.
 
 I cover the whole path: design, building by directing AI agents, deployment and operations.
 
@@ -42,8 +46,9 @@ Looking for remote roles or contracts with teams that need AI agents that actual
 ## Destacados (sección «Destacado», en este orden)
 
 1. rubrica.ar — «Rúbrica: contabilidad con agentes, en producción»
-2. clara.net.ar — «Clara Agenda: turnos con asistente de WhatsApp para consultorios»
-3. cv.diaczun.com/en/ — «CV (English)»
+2. clara.net.ar/agenda — «Clara Agenda: turnos con asistente de WhatsApp para consultorios»
+3. pericias.clara.net.ar — «Clara Pericias: revisión de pericias médicas contra el baremo»
+4. cv.diaczun.com/en/ — «CV (English)»
 
 ## Experiencia
 
@@ -69,16 +74,18 @@ Va PRIMERO en Experiencia (arriba de QTECH). Título EN: Founder · Backend & AI
 
 ES:
 - Rúbrica (rubrica.ar): sistema contable y fiscal donde los agentes hacen el mes y el contador firma. Ningún importe lo escribe un modelo; lo calcula el código con la norma citada. Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores sobre producción.
-- Clara Agenda (clara.net.ar): agenda con asistente de WhatsApp para consultorios chicos, con obras sociales, sobre un servidor MCP.
+- Clara Agenda (clara.net.ar/agenda): agenda con asistente de WhatsApp para consultorios chicos, con obras sociales, sobre un servidor MCP.
 - Construí el agente de pacientes para clínicas que hoy es de AXONICO (QTech), que lo ofrece en exclusiva.
+- Clara Pericias (pericias.clara.net.ar): audita pericias médicas de juicios laborales contra el baremo y redacta la impugnación en Word.
 - Opero todo solo: Docker, colas, monitoreo y respaldos.
 
 Aptitudes: Claude API · MCP · NestJS · Next.js · PostgreSQL
 
 EN:
 - Rúbrica (rubrica.ar): accounting and tax system where agents run the month and the accountant signs. No amount is written by a model; code computes it and cites the regulation. E-invoicing with the tax agency, MCP server, 3,000+ tests and evaluator agents on production.
-- Clara Agenda (clara.net.ar): scheduling system with a WhatsApp assistant for small medical practices, insurance included, on an MCP server.
+- Clara Agenda (clara.net.ar/agenda): scheduling system with a WhatsApp assistant for small medical practices, insurance included, on an MCP server.
 - Built the clinic patient agent now owned by AXONICO (QTech), which offers it exclusively.
+- Clara Pericias (pericias.clara.net.ar): audits court medical reports in labor cases against the official schedule and drafts the challenge in Word.
 - I run everything alone: Docker, queues, monitoring and backups.
 
 ### Backend Developer — Basisty, Fuentes & Assoc (dic 2022 – mar 2023, contrato)
