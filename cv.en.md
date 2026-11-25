@@ -30,7 +30,7 @@ I cover the whole path: design, building by directing AI agents, deployment and 
 - Tax-agency e-invoicing, an MCP server, 3,000+ tests and evaluator agents on production.
 
 
-### Clara Agenda — scheduling and WhatsApp assistant for clinics
+### Clara Agenda — scheduling and WhatsApp assistant for small practices
 *2025 — present · [clara.net.ar/agenda](https://clara.net.ar/agenda) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
 
 - Own scheduling system plus a WhatsApp agent that books appointments, insured or private, through an MCP server.
