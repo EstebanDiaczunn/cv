@@ -15,7 +15,7 @@ descripcion: CV de Esteban Nicolás Diaczun, backend & AI engineer, integracione
 
 ## Perfil
 
-Backend engineer con tres años en sistemas de salud y tres productos propios en producción. Lo mío es el software que funciona contra sistemas reales: integraciones con obras sociales, receta electrónica, ARCA y el Ministerio de Salud, y agentes de IA que trabajan sobre eso sin inventar, porque el código calcula y el modelo sólo propone.
+Backend engineer con tres años en sistemas de salud y tres productos propios en producción. Lo mío es el software que funciona contra sistemas reales: receta electrónica con obras sociales y prepagas, ARCA y el Ministerio de Salud, y agentes de IA que trabajan sobre eso sin inventar, porque el código calcula y el modelo sólo propone.
 
 Hago el recorrido entero: diseño, desarrollo dirigiendo agentes de IA, despliegue y operación.
 

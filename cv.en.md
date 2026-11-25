@@ -15,7 +15,7 @@ descripcion: Résumé of Esteban Nicolás Diaczun, backend & AI engineer, integr
 
 ## Profile
 
-Backend engineer with three years in healthcare systems and three products of my own in production. My thing is software that works against real systems: integrations with insurers, e-prescription networks, the tax agency and the Ministry of Health, and AI agents that work on top of them without making things up, because code computes and the model only proposes.
+Backend engineer with three years in healthcare systems and three products of my own in production. My thing is software that works against real systems: e-prescriptions with health insurers, the tax agency and the Ministry of Health, and AI agents that work on top of them without making things up, because code computes and the model only proposes.
 
 I cover the whole path: design, building by directing AI agents, deployment and operations.
 
