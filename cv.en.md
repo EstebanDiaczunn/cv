@@ -17,7 +17,7 @@ descripcion: Résumé of Esteban Nicolás Diaczun, AI engineer, AI products in p
 
 I build AI products and run them in production. Two are mine and live: Rúbrica, an accounting and tax system where agents do the month and the accountant signs off, and Clara Agenda, scheduling with a WhatsApp assistant for small medical practices.
 
-I work by directing AI agents: I write the spec, review every change, verify, and ship. I published NAIKI, the code review standard I use for it. By day, for three years now, healthcare backend at QTECH.
+I work by directing AI agents: I write the spec, review every change, verify, and ship. By day, for three years now, healthcare backend at QTECH.
 
 
 ## Own products
@@ -36,11 +36,6 @@ I work by directing AI agents: I write the spec, review every change, verify, an
 
 - Own scheduling system plus a WhatsApp agent that books appointments, insured or private, through an MCP server.
 - Grew out of the clinic patient agent I built and sold to AXONICO (QTech), which sells it exclusively.
-
-### NAIKI — code review standard for AI-assisted development
-*Open source · [github.com/EstebanDiaczunn/naiki](https://github.com/EstebanDiaczunn/naiki) · Claude Code, Codex, OpenCode*
-
-- Judgment-based review of agent-written code: proportion, domain, honest self-assessment.
 
 ## Experience
 

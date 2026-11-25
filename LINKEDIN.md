@@ -19,7 +19,7 @@ Rúbrica (rubrica.ar) es un sistema contable y fiscal para PyMEs argentinas: los
 
 Clara Agenda (clara.net.ar) es una agenda con un asistente de WhatsApp que da turnos a los pacientes de consultorios chicos. Sale del agente de pacientes para clínicas que construí y le vendí a AXONICO (QTech).
 
-Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI (github.com/EstebanDiaczunn/naiki), el estándar de code review que uso para eso.
+Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego.
 
 De día hago backend de salud en QTECH: la receta electrónica que conecté con cinco repositorios y el Ministerio de Salud procesa miles de recetas por día.
 
@@ -33,7 +33,7 @@ Rúbrica (rubrica.ar) is an accounting and tax system for Argentine SMBs: agents
 
 Clara Agenda (clara.net.ar) is a scheduling system with a WhatsApp assistant that books appointments for small medical practices. It grew out of the patient agent for clinics I built and sold to AXONICO (QTech).
 
-I work by directing AI agents: I write the spec, review every change, verify, and ship. I published NAIKI (github.com/EstebanDiaczunn/naiki), the code review standard I use for it.
+I work by directing AI agents: I write the spec, review every change, verify, and ship.
 
 By day I do healthcare backend at QTECH: the e-prescription integration I built with five national providers and the Ministry of Health handles thousands of prescriptions a day.
 
@@ -43,8 +43,7 @@ Looking for a remote team building AI products.
 
 1. rubrica.ar — «Rúbrica: contabilidad con agentes, en producción»
 2. clara.net.ar — «Clara Agenda: turnos con asistente de WhatsApp para consultorios»
-3. github.com/EstebanDiaczunn/naiki — «NAIKI: code review para desarrollo con IA»
-4. cv.diaczun.com/en/ — «CV (English)»
+3. cv.diaczun.com/en/ — «CV (English)»
 
 ## Experiencia
 
@@ -92,10 +91,6 @@ EN: Web scraping for the pharmaceutical industry with FastAPI and Selenium on AW
 
 En LinkedIn cada puesto va por separado; marcá los dos de 2022 como tipo de empleo «Contrato» para que la superposición se entienda.
 
-## Proyectos (sección Proyectos)
-
-NAIKI — estándar de code review para desarrollo con IA. github.com/EstebanDiaczunn/naiki
-EN: NAIKI — code review standard for AI-assisted development.
 
 ## Aptitudes principales (las 5 fijadas arriba)
 

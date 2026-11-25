@@ -17,7 +17,7 @@ descripcion: CV de Esteban Nicolás Diaczun, AI engineer, productos con IA en pr
 
 Construyo productos con IA y los pongo en producción. Dos son míos y están andando: Rúbrica, un sistema contable y fiscal donde los agentes hacen el mes y el contador firma, y Clara Agenda, turnos con un asistente de WhatsApp para consultorios chicos.
 
-Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI, el estándar de code review que uso para eso. De día, hace tres años, backend de sistemas de salud en QTECH.
+Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. De día, hace tres años, backend de sistemas de salud en QTECH.
 
 
 ## Productos propios
@@ -36,11 +36,6 @@ Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio
 
 - Agenda propia y un agente que atiende a los pacientes por WhatsApp y da turnos, con obras sociales y particulares, a través de un servidor MCP.
 - Sale del agente de pacientes para clínicas que construí y le vendí a AXONICO (QTech), que lo vende con exclusividad.
-
-### NAIKI — estándar de code review para desarrollo con IA
-*Open source · [github.com/EstebanDiaczunn/naiki](https://github.com/EstebanDiaczunn/naiki) · Claude Code, Codex, OpenCode*
-
-- Revisa con criterio lo que escribe un agente: proporción, dominio y autoevaluación honesta.
 
 ## Experiencia
 
