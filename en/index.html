@@ -26,20 +26,20 @@
   <p class="contacto"><a href="mailto:esteban@diaczun.com">esteban@diaczun.com</a><span>·</span><a href="https://diaczun.com">diaczun.com</a><span>·</span><a href="https://github.com/EstebanDiaczunn">github/EstebanDiaczunn</a><span>·</span><a href="https://linkedin.com/in/esteban-diaczun">linkedin/esteban-diaczun</a></p>
 </header>
 <section class="bloque"><h2>Profile</h2><div class="cont">
-<p>I build AI products and run them in production. Two are mine and live: Rúbrica, an accounting and tax system where agents do the month and the accountant signs off, and Clara, a WhatsApp assistant that books appointments for clinics.</p>
+<p>I build AI products and run them in production. Two are mine and live: Rúbrica, an accounting and tax system where agents do the month and the accountant signs off, and Clara Agenda, scheduling with a WhatsApp assistant for small medical practices.</p>
 <p>I work by directing AI agents: I write the spec, review every change, verify, and ship. I published NAIKI, the code review standard I use for it. By day, for three years now, healthcare backend at QTECH.</p>
 </div></section><section class="bloque"><h2>Own products</h2><div class="cont">
 <div class="puesto"><h3>Rúbrica — agent-run accounting and tax system</h3><span class="fechas">2026 — present</span></div><p class="meta"><a href="https://rubrica.ar">rubrica.ar</a> · NestJS, Next.js, PostgreSQL, Drizzle, BullMQ, Redis, MCP</p>
 <ul>
-<li>Agents run the month for Argentine SMBs: they load invoices from the tax agency (ARCA) and bank statements, categorize, reconcile, and compute VAT, gross income tax and payroll. The accountant reviews and signs.</li>
+<li>Agents run the month for Argentine SMBs: they load tax-agency invoices and bank statements, categorize, reconcile, and compute taxes and payroll. The accountant signs.</li>
 <li>Design rule: no amount is ever written by a model. Code computes it and cites the regulation; the model only picks among options the database gives it, with its confidence shown.</li>
 <li>E-invoicing with ARCA authorization codes, validated filing exports, and an MCP server so clients can use their own assistant.</li>
 <li>3,000+ automated tests, plus independent evaluator agents that score the product on production before each deploy.</li>
 </ul>
-<div class="puesto"><h3>Clara — WhatsApp assistant for clinics</h3><span class="fechas">2025 — present</span></div><p class="meta"><a href="https://clara.net.ar">clara.net.ar</a> · NestJS, Next.js, Prisma, PostgreSQL, Redis, Docker, Claude API</p>
+<div class="puesto"><h3>Clara Agenda — scheduling and WhatsApp assistant for medical practices</h3><span class="fechas">2025 — present</span></div><p class="meta"><a href="https://clara.net.ar">clara.net.ar</a> · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API</p>
 <ul>
-<li>Multi-tenant SaaS in production: serves patients over WhatsApp, books appointments and integrates with the clinic&#39;s system.</li>
-<li>I designed, built and run it alone: queues, Docker deployment, monitoring and backups.</li>
+<li>Own scheduling system plus a WhatsApp agent that books appointments, insured or private, through an MCP server.</li>
+<li>Grew out of the clinic patient agent I built and sold to AXONICO (QTech), which sells it exclusively.</li>
 </ul>
 <div class="puesto"><h3>NAIKI — code review standard for AI-assisted development</h3><span class="fechas">Open source</span></div><p class="meta"><a href="https://github.com/EstebanDiaczunn/naiki">github.com/EstebanDiaczunn/naiki</a> · Claude Code, Codex, OpenCode</p>
 <ul>
@@ -51,7 +51,7 @@
 <li>Led the e-prescription integrations: connectors built from scratch with OSDE, Farmalink, Preserfar, Admifarm and the Ministry of Health bus (PUCO, SISA). They process thousands of prescriptions a day.</li>
 <li>Led the backend of the patient app the company sells to clinic networks. The largest client has 3,000+ active users.</li>
 <li>Gradual migration of the legacy HIS (vanilla PHP, PowerBuilder) to Laravel.</li>
-<li>Real-time appointment caller with WebSockets for healthcare waiting rooms.</li>
+<li>Real-time appointment caller with WebSockets for waiting rooms.</li>
 </ul>
 <div class="puesto"><h3>Short contracts — Basisty, Fuentes &amp; Assoc · Extendeal</h3><span class="fechas">December 2022 — March 2023</span></div><p class="meta">Remote · .NET 6, C#, PostgreSQL, Python, FastAPI, AWS</p>
 <ul>

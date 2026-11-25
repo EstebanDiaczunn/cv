@@ -15,7 +15,7 @@ descripcion: CV de Esteban Nicolás Diaczun, AI engineer, productos con IA en pr
 
 ## Perfil
 
-Construyo productos con IA y los pongo en producción. Dos son míos y están andando: Rúbrica, un sistema contable y fiscal donde los agentes hacen el mes y el contador firma, y Clara, un asistente de WhatsApp que agenda turnos en clínicas.
+Construyo productos con IA y los pongo en producción. Dos son míos y están andando: Rúbrica, un sistema contable y fiscal donde los agentes hacen el mes y el contador firma, y Clara Agenda, turnos con un asistente de WhatsApp para consultorios chicos.
 
 Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI, el estándar de code review que uso para eso. De día, hace tres años, backend de sistemas de salud en QTECH.
 
@@ -31,11 +31,11 @@ Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio
 - Más de 3.000 pruebas automáticas y agentes evaluadores independientes que miden el producto sobre producción antes de desplegar.
 
 
-### Clara — asistente de WhatsApp para clínicas
-*2025 — actualidad · [clara.net.ar](https://clara.net.ar) · NestJS, Next.js, Prisma, PostgreSQL, Redis, Docker, Claude API*
+### Clara Agenda — turnos y asistente de WhatsApp para consultorios
+*2025 — actualidad · [clara.net.ar](https://clara.net.ar) · NestJS, Next.js, PostgreSQL, Redis, MCP, Claude API*
 
-- SaaS multi-tenant en producción: atiende pacientes por WhatsApp, agenda turnos y se integra con el sistema de la clínica.
-- Lo diseñé, construí y opero solo: colas, despliegue con Docker, monitoreo y respaldos.
+- Agenda propia y un agente que atiende a los pacientes por WhatsApp y da turnos, con obras sociales y particulares, a través de un servidor MCP.
+- Sale del agente de pacientes para clínicas que construí y le vendí a AXONICO (QTech), que lo vende con exclusividad.
 
 ### NAIKI — estándar de code review para desarrollo con IA
 *Open source · [github.com/EstebanDiaczunn/naiki](https://github.com/EstebanDiaczunn/naiki) · Claude Code, Codex, OpenCode*

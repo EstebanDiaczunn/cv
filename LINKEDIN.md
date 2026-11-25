@@ -5,9 +5,9 @@ Perfil en español como principal + perfil secundario en inglés (Perfil → «A
 
 ## Titular
 
-ES: `AI Engineer · Productos con IA en producción: Rúbrica (contabilidad con agentes) y Clara (salud) · TypeScript, NestJS, MCP`
+ES: `AI Engineer · Productos con IA en producción: Rúbrica (contabilidad con agentes) y Clara Agenda (consultorios) · TypeScript, NestJS, MCP`
 
-EN: `AI Engineer · AI products in production: Rúbrica (agent-run accounting) and Clara (healthcare) · TypeScript, NestJS, MCP`
+EN: `AI Engineer · AI products in production: Rúbrica (agent-run accounting) and Clara Agenda (medical practices) · TypeScript, NestJS, MCP`
 
 ## Acerca de
 
@@ -17,7 +17,7 @@ Construyo productos con IA y los pongo en producción. Dos son míos y están an
 
 Rúbrica (rubrica.ar) es un sistema contable y fiscal para PyMEs argentinas: los agentes cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador revisa y firma. La regla de diseño es que ningún importe lo escribe un modelo: lo calcula el código con la norma citada. Tiene servidor MCP, más de 3.000 pruebas automáticas y agentes evaluadores que lo miden en producción antes de cada despliegue.
 
-Clara (clara.net.ar) es un asistente de WhatsApp que atiende pacientes y agenda turnos en clínicas. Multi-tenant, lo diseñé, lo construí y lo opero solo.
+Clara Agenda (clara.net.ar) es una agenda con un asistente de WhatsApp que da turnos a los pacientes de consultorios chicos. Sale del agente de pacientes para clínicas que construí y le vendí a AXONICO (QTech).
 
 Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI (github.com/EstebanDiaczunn/naiki), el estándar de code review que uso para eso.
 
@@ -31,7 +31,7 @@ I build AI products and run them in production. Two are mine and live.
 
 Rúbrica (rubrica.ar) is an accounting and tax system for Argentine SMBs: agents load invoices from the tax agency and the bank, categorize, reconcile and compute taxes and payroll; the accountant reviews and signs. The design rule is that no amount is ever written by a model: code computes it and cites the regulation. It ships an MCP server, 3,000+ automated tests, and evaluator agents that score it on production before every deploy.
 
-Clara (clara.net.ar) is a WhatsApp assistant that serves patients and books appointments for clinics. Multi-tenant; I designed, built and run it alone.
+Clara Agenda (clara.net.ar) is a scheduling system with a WhatsApp assistant that books appointments for small medical practices. It grew out of the patient agent for clinics I built and sold to AXONICO (QTech).
 
 I work by directing AI agents: I write the spec, review every change, verify, and ship. I published NAIKI (github.com/EstebanDiaczunn/naiki), the code review standard I use for it.
 
@@ -42,7 +42,7 @@ Looking for a remote team building AI products.
 ## Destacados (sección «Destacado», en este orden)
 
 1. rubrica.ar — «Rúbrica: contabilidad con agentes, en producción»
-2. clara.net.ar — «Clara: asistente de WhatsApp para clínicas»
+2. clara.net.ar — «Clara Agenda: turnos con asistente de WhatsApp para consultorios»
 3. github.com/EstebanDiaczunn/naiki — «NAIKI: code review para desarrollo con IA»
 4. cv.diaczun.com/en/ — «CV (English)»
 
@@ -70,13 +70,15 @@ Va PRIMERO en Experiencia (arriba de QTECH). Título EN: Founder & AI Engineer.
 
 ES:
 - Rúbrica (rubrica.ar): sistema contable y fiscal donde los agentes hacen el mes y el contador firma. Ningún importe lo escribe un modelo; lo calcula el código con la norma citada. Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores sobre producción.
-- Clara (clara.net.ar): asistente de WhatsApp multi-tenant que atiende pacientes y agenda turnos en clínicas. Lo diseñé, construí y opero solo.
+- Clara Agenda (clara.net.ar): agenda con asistente de WhatsApp para consultorios chicos, con obras sociales, sobre un servidor MCP.
+- Construí el agente de pacientes para clínicas y se lo vendí a AXONICO (QTech), que lo vende con exclusividad.
 
 Aptitudes: Claude API · MCP · NestJS · Next.js · PostgreSQL
 
 EN:
 - Rúbrica (rubrica.ar): accounting and tax system where agents run the month and the accountant signs. No amount is written by a model; code computes it and cites the regulation. E-invoicing with the tax agency, MCP server, 3,000+ tests and evaluator agents on production.
-- Clara (clara.net.ar): multi-tenant WhatsApp assistant that serves patients and books appointments for clinics. I designed, built and run it alone.
+- Clara Agenda (clara.net.ar): scheduling system with a WhatsApp assistant for small medical practices, insurance included, on an MCP server.
+- Built the patient agent for clinics and sold it to AXONICO (QTech), which sells it exclusively.
 
 ### Backend Developer — Basisty, Fuentes & Assoc (dic 2022 – mar 2023, contrato)
 
