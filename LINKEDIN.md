@@ -5,31 +5,46 @@ Perfil en español como principal + perfil secundario en inglés (Perfil → «A
 
 ## Titular
 
-ES: `Backend Engineer · Integraciones de salud y productos con IA en producción · NestJS, TypeScript, Laravel`
+ES: `AI Engineer · Productos con IA en producción: Rúbrica (contabilidad con agentes) y Clara (salud) · TypeScript, NestJS, MCP`
 
-EN: `Backend Engineer · Healthcare integrations and AI products in production · NestJS, TypeScript, Laravel`
+EN: `AI Engineer · AI products in production: Rúbrica (agent-run accounting) and Clara (healthcare) · TypeScript, NestJS, MCP`
 
 ## Acerca de
 
 ### ES
 
-Hace tres años escribo el backend de sistemas de salud en Argentina. Conecté la receta electrónica con cinco repositorios (OSDE, Farmalink, Preserfar, Admifarm) y con el Bus del Ministerio de Salud; hoy pasan miles de recetas por día.
+Construyo productos con IA y los pongo en producción. Dos son míos y están andando.
 
-Por mi cuenta construí y opero Clara (clara.net.ar), un asistente de WhatsApp que atiende pacientes y agenda turnos en clínicas. Multi-tenant, NestJS, PostgreSQL, Redis, Claude API. Lo diseñé, lo programé y lo mantengo en producción.
+Rúbrica (rubrica.ar) es un sistema contable y fiscal para PyMEs argentinas: los agentes cargan comprobantes de ARCA y del banco, imputan, concilian y liquidan impuestos y sueldos; el contador revisa y firma. La regla de diseño es que ningún importe lo escribe un modelo: lo calcula el código con la norma citada. Tiene servidor MCP, más de 3.000 pruebas automáticas y agentes evaluadores que lo miden en producción antes de cada despliegue.
 
-Desarrollo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI (github.com/EstebanDiaczunn/naiki), el estándar de code review que uso para eso.
+Clara (clara.net.ar) es un asistente de WhatsApp que atiende pacientes y agenda turnos en clínicas. Multi-tenant, lo diseñé, lo construí y lo opero solo.
 
-Busco un equipo remoto que construya productos con IA, idealmente en salud.
+Trabajo dirigiendo agentes de IA: escribo la especificación, reviso cada cambio, verifico y despliego. Publiqué NAIKI (github.com/EstebanDiaczunn/naiki), el estándar de code review que uso para eso.
+
+De día hago backend de salud en QTECH: la receta electrónica que conecté con cinco repositorios y el Ministerio de Salud procesa miles de recetas por día.
+
+Busco un equipo remoto que construya productos con IA.
 
 ### EN
 
-I've spent three years building backend systems for healthcare in Argentina. I connected e-prescriptions to five national providers (OSDE, Farmalink, Preserfar, Admifarm) and the Ministry of Health bus; thousands of prescriptions go through every day.
+I build AI products and run them in production. Two are mine and live.
 
-On my own, I built and run Clara (clara.net.ar), a WhatsApp assistant that serves patients and books appointments for clinics. Multi-tenant, NestJS, PostgreSQL, Redis, Claude API. I designed it, wrote it and keep it running in production.
+Rúbrica (rubrica.ar) is an accounting and tax system for Argentine SMBs: agents load invoices from the tax agency and the bank, categorize, reconcile and compute taxes and payroll; the accountant reviews and signs. The design rule is that no amount is ever written by a model: code computes it and cites the regulation. It ships an MCP server, 3,000+ automated tests, and evaluator agents that score it on production before every deploy.
 
-I build by directing AI agents: I write the spec, review every change, verify, and ship. I published NAIKI (github.com/EstebanDiaczunn/naiki), the code review standard I use for it.
+Clara (clara.net.ar) is a WhatsApp assistant that serves patients and books appointments for clinics. Multi-tenant; I designed, built and run it alone.
 
-Looking for a remote team building AI products, ideally in healthcare.
+I work by directing AI agents: I write the spec, review every change, verify, and ship. I published NAIKI (github.com/EstebanDiaczunn/naiki), the code review standard I use for it.
+
+By day I do healthcare backend at QTECH: the e-prescription integration I built with five national providers and the Ministry of Health handles thousands of prescriptions a day.
+
+Looking for a remote team building AI products.
+
+## Destacados (sección «Destacado», en este orden)
+
+1. rubrica.ar — «Rúbrica: contabilidad con agentes, en producción»
+2. clara.net.ar — «Clara: asistente de WhatsApp para clínicas»
+3. github.com/EstebanDiaczunn/naiki — «NAIKI: code review para desarrollo con IA»
+4. cv.diaczun.com/en/ — «CV (English)»
 
 ## Experiencia
 
@@ -49,17 +64,19 @@ EN:
 - Gradual migration of the legacy HIS (vanilla PHP, PowerBuilder) to Laravel.
 - Real-time appointment caller with WebSockets for waiting rooms.
 
-### Fundador y desarrollador — Clara (2025 – actualidad)
+### Fundador y AI Engineer — Clara (2025 – actualidad)
+
+Va PRIMERO en Experiencia (arriba de QTECH). Título EN: Founder & AI Engineer.
 
 ES:
-- SaaS multi-tenant en producción: atiende pacientes por WhatsApp, agenda turnos y se integra con el sistema de la clínica.
-- Lo diseñé, construí y opero solo: colas, despliegue con Docker, monitoreo y respaldos.
+- Rúbrica (rubrica.ar): sistema contable y fiscal donde los agentes hacen el mes y el contador firma. Ningún importe lo escribe un modelo; lo calcula el código con la norma citada. Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores sobre producción.
+- Clara (clara.net.ar): asistente de WhatsApp multi-tenant que atiende pacientes y agenda turnos en clínicas. Lo diseñé, construí y opero solo.
 
-Aptitudes: NestJS · Next.js · PostgreSQL · Redis · Claude API
+Aptitudes: Claude API · MCP · NestJS · Next.js · PostgreSQL
 
-EN (título: Founder & Developer):
-- Multi-tenant SaaS in production: serves patients over WhatsApp, books appointments and integrates with the clinic's system.
-- I designed, built and run it alone: queues, Docker deployment, monitoring and backups.
+EN:
+- Rúbrica (rubrica.ar): accounting and tax system where agents run the month and the accountant signs. No amount is written by a model; code computes it and cites the regulation. E-invoicing with the tax agency, MCP server, 3,000+ tests and evaluator agents on production.
+- Clara (clara.net.ar): multi-tenant WhatsApp assistant that serves patients and books appointments for clinics. I designed, built and run it alone.
 
 ### Backend Developer — Basisty, Fuentes & Assoc (dic 2022 – mar 2023, contrato)
 
@@ -80,7 +97,7 @@ EN: NAIKI — code review standard for AI-assisted development.
 
 ## Aptitudes principales (las 5 fijadas arriba)
 
-TypeScript · NestJS · Laravel · Integración de sistemas de salud · Claude API
+Claude API · MCP · TypeScript · NestJS · Integración de sistemas de salud
 
 Borrar del perfil: Go, Django, MongoDB, Bitbucket, «Clean Code», «SOLID» y cualquier aptitud sin evidencia.
 
@@ -90,6 +107,6 @@ Español: nativo o bilingüe. Inglés: competencia básica profesional (subirlo 
 
 ## Ajustes
 
-- «Open to work»: sólo visible para reclutadores. Puestos: Backend Engineer, AI Engineer, Forward Deployed Engineer, Integration Engineer. Ubicación: Remoto. Tipo: tiempo completo y contrato.
+- «Open to work»: sólo visible para reclutadores. Puestos: AI Engineer, Forward Deployed Engineer, Backend Engineer, Integration Engineer. Ubicación: Remoto. Tipo: tiempo completo y contrato.
 - URL pública: linkedin.com/in/esteban-diaczun.
 - Foto profesional y banner liso; sin frases motivacionales en el banner.
