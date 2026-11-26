@@ -74,7 +74,7 @@ EN:
 
 ### Fundador · Backend & AI Engineer — Clara (2025 – actualidad)
 
-Va PRIMERO en Experiencia (arriba de QTECH). Título EN: Founder · Backend & AI Engineer.
+Va DEBAJO de QTECH en Experiencia (owner 26/11 lo prefirió así). Título EN: Founder · Backend & AI Engineer.
 
 ES:
 - Rúbrica (rubrica.ar): sistema contable y fiscal donde los agentes hacen el mes y el contador firma. Ningún importe lo escribe un modelo; lo calcula el código con la norma citada. Factura con CAE de ARCA, servidor MCP, más de 3.000 pruebas y agentes evaluadores sobre producción.
@@ -118,5 +118,5 @@ Español: nativo o bilingüe. Inglés: competencia básica profesional (subirlo 
 ## Ajustes
 
 - «Open to work»: sólo visible para reclutadores. Puestos: Backend Engineer, AI Engineer, Forward Deployed Engineer, Integration Engineer. Ubicación: Remoto. Tipo: tiempo completo y contrato.
-- URL pública: linkedin.com/in/esteban-diaczun.
+- URL pública: linkedin.com/in/esteban-d-041146206 (la real; no cambiarla, rompe enlaces viejos).
 - Foto profesional y banner liso; sin frases motivacionales en el banner.

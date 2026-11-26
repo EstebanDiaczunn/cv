@@ -6,7 +6,7 @@ ciudad: Buenos Aires, Argentina · remoto
 mail: esteban@diaczun.com
 web: diaczun.com
 github: github.com/EstebanDiaczunn
-linkedin: linkedin.com/in/esteban-diaczun
+linkedin: linkedin.com/in/esteban-d-041146206
 pdf: esteban-diaczun.pdf
 otro_idioma: English
 otro_url: /en/
